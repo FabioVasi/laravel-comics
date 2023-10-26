@@ -17,9 +17,16 @@
 
 <body>
 
-    <main class="">
+    <header id="site_header" class="">
+
+    </header>
+    <main id="site_maim" class="">
         @yield('content')
     </main>
+
+    <footer id="site_footer" class="">
+
+    </footer>
 
 </body>
 

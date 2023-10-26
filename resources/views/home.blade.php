@@ -4,6 +4,6 @@
 
 @section('content')
 
-    <h1>Welcome page</h1>
+    <h1>Home page DC Comics</h1>
 
 @endsection

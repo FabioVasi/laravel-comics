@@ -37,7 +37,7 @@
                             <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">CHARACTERS</a>
                         </li>
                         <li class="px-2">
-                            <a class="py-5 text-decoration-none text-primary fs-5 fw-bold border-bottom border-primary border-5" href="#">COMICS</a>
+                            <a class="py-5 text-decoration-none text-muted fs-5 fw-bold {{ Route::currentRouteName() === 'home' ? 'text-primary border-bottom border-primary border-5' : '' }}" href="{{route('home')}}">COMICS</a>
                         </li>
                         <li class="px-2">
                             <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">MOVIES</a>
@@ -49,7 +49,7 @@
                             <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">GAMES</a>
                         </li>
                         <li class="px-2">
-                            <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">COLLECTIBLES</a>
+                            <a class="py-5 text-decoration-none text-muted fs-5 fw-bold {{ Route::currentRouteName() === 'products' ? 'text-primary border-bottom border-primary border-5' : '' }}" href="{{route('products')}}">COLLECTIBLES</a>
                         </li>
                         <li class="px-2">
                             <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">VIDEOS</a>
@@ -58,7 +58,7 @@
                             <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">FANS</a>
                         </li>
                         <li class="px-2">
-                            <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">NEWS</a>
+                            <a class="py-5 text-decoration-none text-muted fs-5 fw-bold {{ Route::currentRouteName() === 'news' ? 'text-primary border-bottom border-primary border-5' : '' }}" href="{{route('news')}}">NEWS</a>
                         </li>
                         <li class="px-2">
                             <div class="dropdown d-flex justify-content-end align-items-center">

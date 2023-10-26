@@ -19,7 +19,7 @@
 
     <header id="site_header" class="">
 
-        <div class="top-header">
+        <div class="top-header mb-3">
 
             <div class="container d-flex justify-content-end align-items-center">
                 <h6 class="text-white m-0">
@@ -40,7 +40,7 @@
 
         </div>
 
-        <div class="bottom-header d-flex justify-content-between align-items-center py-3">
+        <div class="bottom-header d-flex justify-content-between align-items-center">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     
@@ -56,7 +56,7 @@
                                 <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">CHARACTERS</a>
                             </li>
                             <li class="px-2">
-                                <a class="py-5 text-decoration-none text-primary fs-5 fw-bold border-bottom border-primary border-4" href="#">COMICS</a>
+                                <a class="py-5 text-decoration-none text-primary fs-5 fw-bold border-bottom border-primary border-5" href="#">COMICS</a>
                             </li>
                             <li class="px-2">
                                 <a class="py-5 text-decoration-none text-muted fs-5 fw-bold" href="#">MOVIES</a>
@@ -120,7 +120,123 @@
     <footer id="site_footer">
         
         <div class="top-footer">
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="d-flex justify-content-start pt-5">
+                            <div class="col-4">
+                                <div class="card border-0 bg-transparent rounded-0">
+                                    <h4 class="text-white">DC COMICS</h4>
+                                    <ul class="list-unstyled text-secondary">
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Characters</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Comics</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Movies</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">TV</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Games</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Videos</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">News</a>
+                                        </li>
+                                    </ul>
+                                    <h4 class="text-white">SHOP</h4>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Shop DC</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Shop DC Collectibles</a>
+                                        </li>
+                                    </ul>
+                                </div>                                
+                            </div>
+                            <div class="col-4">
+                                <div class="card border-0 bg-transparent rounded-0">
+                                    <h4 class="text-white">DC</h4>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Terms Of Use</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Privacy policy(New)</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Ad Choices</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Advertising</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Jobs</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Subscriptions</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Talent Workshops</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">CPSC Certificates</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Ratings</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Shop Help</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>                                
+                            </div>
+                            <div class="col-4">
+                                <div class="card border-0 bg-transparent rounded-0">
+                                    <h4 class="text-white">SITES</h4>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">DC</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">MAD Magazine</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">DC Kids</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">DC Universe</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-secondary fw-medium text-decoration-none" href="#">DC power Visa</a>
+                                        </li>
+                                    </ul>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="card border-0 bg-transparent rounded-0">
+                            <p class="text-secondary fw-medium m-0">
+                                All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a class="text-decoration-none" href="#">noted here</a>. All rights reserved. <a class="text-decoration-none" href="#">Cookies Settings</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="large-logo">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="bottom-footer py-5">

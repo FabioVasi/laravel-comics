@@ -41,8 +41,15 @@ form{
 
 
 // main
-main{
-    min-height: 100vh;
+
+.banner{
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.products{
+    background-color: var(--main-section-bg);
 }
 
 

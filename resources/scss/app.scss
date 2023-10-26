@@ -1,1 +1,29 @@
 @import '~bootstrap/scss/bootstrap';
+// reset rules
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// header style
+header{
+    background-color: white;
+}
+.top-header{
+    background-color: #0282f9;
+}
+.bottom-header{
+}
+form{
+    border-bottom: 4px solid #0282f9;
+}
+.search{
+    width: 200px;
+    text-align: end;
+    padding-right: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.search-lens{
+    font-size: 24px;
+}

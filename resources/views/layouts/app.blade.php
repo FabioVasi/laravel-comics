@@ -109,11 +109,64 @@
 
     </header>
 
+
+
     <main id="site_maim" class="">
         @yield('content')
     </main>
 
-    <footer id="site_footer" class="">
+
+
+    <footer id="site_footer">
+        
+        <div class="top-footer">
+            
+        </div>
+
+        <div class="bottom-footer py-5">
+
+            <div class="container d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="#">
+                        <button type="button" class="btn text-white fw-bold fs-3 border-primary border-3 rounded-0 btn-lg">SIGN-UP NOW</button>
+                    </a>
+                </div>
+
+                <div>
+                    <ul class="list-unstyled d-flex justify-content-evenly align-items-center m-0">
+                        <li class="px-3">
+                            <a class="follow text-decoration-none fw-bold fs-3" href="#">FOLLOW US</a>
+                        </li>
+                        <li class="px-2">
+                            <a class="" href="#">
+                                <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="">
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a class="" href="#">
+                                <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="">
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a class="" href="#">
+                                <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="">
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a class="" href="#">
+                                <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a class="" href="#">
+                                <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
 
     </footer>
 
